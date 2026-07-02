@@ -7,4 +7,12 @@
     background-color: black;
     height: 20px;
     padding: 20px 20px;
+    display: flex;
+    justify-content: center; /*Center horizontally*/
+    align-items: center;     /*Center vertically*/
+}
+
+h1{
+    display: flex;
+    justify-content: center;
 }
