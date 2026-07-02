@@ -1,3 +1,10 @@
 *{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p{
+    color: red;
+    background-color: black;
+    height: 20px;
+    padding: 20px 20px;
 }
