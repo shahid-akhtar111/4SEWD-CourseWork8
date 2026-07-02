@@ -2,9 +2,15 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.header{
+    display: flex;
+    justify-content: left;
+
+}
+
 .p{
-    color: red;
-    background-color:green;
+    /* color: red;
+    background-color:green; */
     height: 20px;
     padding: 20px 20px;
     display: flex;
@@ -16,3 +22,81 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+.nav{
+    background-color: rgb(9, 37, 72);
+    color: #ffffff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
+    gap: 10px;
+}
+ nav{
+    margin: 10px;
+ }
+
+.sidebar{
+    width: 240px;
+    height: 100vh;
+    background-color: white;
+    border-radius: 1px solid #e0e0e0;
+}
+
+ .nav-item{
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    font-weight:500 ;
+
+ }
+/* the selected product ststus */
+ /* .active{
+    background-color: #0066ff;
+    color: white !important;
+    margin: 0 10px;
+    border-radius: 6px;
+ } */
+
+ .nav-item:hover:not(.active){
+    background-color: #f0f4f8;
+    border-radius: 6px;
+ }
+
+ .logout{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+ }
+
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+ }
+
+ th, td{
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+ }
+
+ th{
+    color: #666;
+    font-weight: 600;
+ }
+
+ .main-content{
+    flex:1;
+    padding: 40px;
+ }
+
+ .table{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+ }
